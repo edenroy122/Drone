@@ -11,9 +11,6 @@ async function connectdb(){
     catch(err){
         console.log("Database Connection Failed",err)
     }
-
-
 } 
-
 
 module.exports = connectdb
